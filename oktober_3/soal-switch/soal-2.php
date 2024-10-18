@@ -9,6 +9,9 @@ switch ($jenis) {
     case 'P' :
         echo "Jenis Kelamin Perempuan";
         break;
+    default : 
+        echo "Anda Memasukan Jenis Kelamin yang tidak sesuai";
+    
 }
 
 ?>

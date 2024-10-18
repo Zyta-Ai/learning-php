@@ -15,7 +15,8 @@ switch ($musim) {
     case ($musim >= 10 && $musim <= 12): 
         echo "Musim Gugur";
         break;
-    
+    default :
+        echo "Anda Memasukan Angka Diluar 1 - 12";
 }
 
 ?>
