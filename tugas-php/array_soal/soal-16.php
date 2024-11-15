@@ -6,12 +6,16 @@ $siswa = [
     "Doni" => 50
 ];
 
+$nilai = 0;
+
 echo "Siswa dibawah Rata-rata: ";
 foreach($siswa as $nama => $nilai) { 
     if($nilai <= 75){
         echo $nama . " ";
     }
 }
+
+
 
 
 

@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    align-items: center;
+    width: 50%;
+    height: 10px;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border-width: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #111955;
+}
+th {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
